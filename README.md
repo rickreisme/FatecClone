@@ -1,6 +1,6 @@
 # Fatec Clone
 
-V
+Um clone e redesign da página web da minha faculdade, Fatec Ribeirão Preto.
 
 ## Tecnologias usadas
 
