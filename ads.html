@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fatec Ribeirão Preto | ADS</title>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="http://www.fatecrp.edu.br/wp-content/uploads/2017/06/favicon-80x80.png" sizes="32x32">
+        <link rel="icon" href="http://www.fatecrp.edu.br/wp-content/uploads/2017/06/favicon.png" sizes="192x192">
+        <link rel="apple-touch-icon-precomposed" href="http://www.fatecrp.edu.br/wp-content/uploads/2017/06/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6ae4d9dd99.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <img id="cps" src="./Identidade fatec/logo_vertical_horizontal_gov_cps/regua_horizontal_logo_vertical_gov_cps/regua_horizontal_logo_vertical_gov_cps_br.png" 
+            alt="logo do centro paula souza e governo do estado">
+            <a href="http://www.fatecrp.edu.br" target="_blank"><img id="fatec" src="logo.png" alt="logo da fatec ribeirão preto"></a>
+        </header>
+        <nav> 
+            <!-- nav bar -->
+            <a class="topics" onclick="toggleDropdown('institucionalDropdown')">
+                Institucional
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="institucionalDropdown" class="dropdown-content">
+                <a href="#">Comissão Própria de Avaliação</a>
+                <a href="#">Corpo Administrativo</a>
+                <a href="#">Corpo Docente</a>
+                <a href="#">PDI - PLANO DE DESENVOLVIMENTO INSTITUCIONAL</a>
+                <a href="#">Projetos</a>
+                <a href="#">Sobre a Fatec</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('cursosDropdown')">
+                Cursos
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="cursosDropdown" class="dropdown-content">
+                <a href="#">Análise e Desenvolvimento de Sistemas</a>
+                <a href="#">Gestão de Negócios e Inovação</a>
+                <a href="#">Sistemas Biomédicos</a>
+                <a href="#">Gestão de Recursos Humanos (EM BREVE)</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('servicosDropdown')">
+                Serviços Acadêmicos
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="servicosDropdown" class="dropdown-content">
+                <a href="#">Calendário Escolar</a>
+                <a href="#">Declaração para Passe Escolar</a>
+                <a href="#">Monitoria</a>
+                <a href="#">Requerimento Global</a>
+                <a href="#">Aproveitamento de Estudos</a>
+                <a href="#">Deliberação 12 - Fatecs</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('bibliotecaDropdown')">
+                Biblioteca
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="bibliotecaDropdown" class="dropdown-content">
+                <a href="#">BiblioCPS</a>
+                <a href="#">RIC</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('concursosDropdown')">
+                Concursos
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="concursosDropdown" class="dropdown-content">
+                <a href="#">Concurso / Processo Seletivo - Docente</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('estagioDropdown')">
+                Estágio
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="estagioDropdown" class="dropdown-content">
+                <a href="#">Orientações</a>
+            </div>
+
+            <a class="topics" onclick="toggleDropdown('vestibularDropdown')">
+                Vestibular
+                <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+            </a>
+            <div id="vestibularDropdown" class="dropdown-content">
+                <a href="#">Calendário Vestibular</a>
+                <a href="#">Como ingressar na Fatec</a>
+                <a href="#">Cadastro Lembrete Próximo Vestibular</a>
+                <a href="#">Dúvidas Frequentes</a>
+                <a href="#">Isenção / Redução</a>
+                <a href="#">Provas e Gabaritos</a>
+            </div>
+
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/fatecribeirao/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://twitter.com/FatecRibeirao" target="_blank"><i class="fa-brands fa-x-twitter fa-lg"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/fatecribeiraopreto/" target="_blank"><i class="fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCniCNDqvtQRkMX8XiUKafUQ" target="_blank"><i class="fa-brands fa-youtube fa-lg" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="containter">
+                <div class="titulo">
+                    <h1 id="nm-curso">Análise e Desenvolvimento de Sistemas</h1>
+                    <h1 id="titulo1">O QUE O ALUNO ESTUDA</h1>
+                    <p id="matematica">
+                        A Matemática, em especial raciocínio lógico e 
+                        cálculo, é necessária para que o aluno aprenda a otimizar computadores e a 
+                        desenvolver softwares. O aluno recebe noções sobre Bancos de Dados, 
+                        sistemas baseados em web (como serviços bancários pela internet) e 
+                        programação distribuída, que conecta computadores em rede para que 
+                        funcionem como se fossem um só computador.
+                    </p>
+                    <p id="administracao">
+                        <br>Administração, contabilidade, economia, estatística e inglês também fazem 
+                        parte do currículo. Além disso, habilidades para leitura e interpretação
+                        de textos são fundamentais para o aprendizado durante o curso. 
+                        <strong>Hoje, o mercado não aceita mais profissionais que se isolam na frente 
+                        do computador.</strong> As empresas exigem pessoas versáteis, dinâmicas, que 
+                        saibam trabalhar em equipe e possam ter contato com o usuário final 
+                        do sistema.
+                    </p>
+
+                    <h1 id="titulo2"> QUE O PROFISSIONAL FAZ</h1>
+                    <p id="cria">
+                        Cria, projeta, desenvolve e configura programas, softwares e sistemas 
+                        para inúmeras empresas. Faz auditoria de sistemas para avaliar possíveis
+                        erros e falhas. Além disso, o tecnólogo em Análise e Desenvolvimento de
+                        Sistemas está apto a prestar consultoria e desenvolver pesquisas.
+                    </p>
+
+                    <h1 id="titulo3">ONDE TRABALHAR</h1>
+                    <p id="como">
+                        Como a informática está presente em praticamente todos os setores da 
+                        sociedade, o tecnólogo em Análise e Desenvolvimento de Sistemas pode 
+                        atuar em empresas públicas ou privadas, instituições financeiras, 
+                        consultorias, terceiro setor, empresas especializadas em Tecnologia da 
+                        Informação (TI), indústrias etc.
+                    </p>
+
+                    <div id="link-ads" >
+                        <a href="http://www.fatecrp.edu.br/analise-e-desenvolvimento-de-sistemas/"
+                        target="_blank"><h1>Confira o curso de ADS</h1></a>
+                    </div>
+                    <img src="ads-fatec.jpeg" id="fatecads" alt="banner ads fatec"> <br>
+
+                    <br>
+                    <a class="btn-form" href="./Formulários/form.html">
+                        Preencha nosso formulário!
+                    </a>
+                </div>
+                
+            </div>
+        </main>
+        
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>

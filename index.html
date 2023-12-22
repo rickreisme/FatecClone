@@ -1,0 +1,254 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fatec Ribeirão Preto | Faculdade de Tecnologia</title>
+    <!-- <link rel="stylesheet" href="styles-dark.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="http://www.fatecrp.edu.br/wp-content/uploads/2017/06/favicon-80x80.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/6ae4d9dd99.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img id="cps"
+            src="assets/Identidade fatec/logo_vertical_horizontal_gov_cps/regua_horizontal_logo_vertical_gov_cps/regua_horizontal_logo_vertical_gov_cps_br.png"
+            alt="logo do centro paula souza e governo do estado">
+        <a href="http://www.fatecrp.edu.br" target="_blank"><img id="fatec" src="assets/img/logo.png"
+                alt="logo da fatec ribeirão preto"></a>
+    </header>
+    <nav>
+        <!-- nav bar -->
+        <a class="topics" onclick="toggleDropdown('institucionalDropdown')">
+            Institucional
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="institucionalDropdown" class="dropdown-content">
+            <a href="#">Comissão Própria de Avaliação</a>
+            <a href="#">Corpo Administrativo</a>
+            <a href="#">Corpo Docente</a>
+            <a href="#">PDI - PLANO DE DESENVOLVIMENTO INSTITUCIONAL</a>
+            <a href="#">Projetos</a>
+            <a href="#">Sobre a Fatec</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('cursosDropdown')">
+            Cursos
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="cursosDropdown" class="dropdown-content">
+            <a href="#">Análise e Desenvolvimento de Sistemas</a>
+            <a href="#">Gestão de Negócios e Inovação</a>
+            <a href="#">Sistemas Biomédicos</a>
+            <a href="#">Gestão de Recursos Humanos (EM BREVE)</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('servicosDropdown')">
+            Serviços Acadêmicos
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="servicosDropdown" class="dropdown-content">
+            <a href="#">Calendário Escolar</a>
+            <a href="#">Declaração para Passe Escolar</a>
+            <a href="#">Monitoria</a>
+            <a href="#">Requerimento Global</a>
+            <a href="#">Aproveitamento de Estudos</a>
+            <a href="#">Deliberação 12 - Fatecs</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('bibliotecaDropdown')">
+            Biblioteca
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="bibliotecaDropdown" class="dropdown-content">
+            <a href="#">BiblioCPS</a>
+            <a href="#">RIC</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('concursosDropdown')">
+            Concursos
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="concursosDropdown" class="dropdown-content">
+            <a href="#">Concurso / Processo Seletivo - Docente</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('estagioDropdown')">
+            Estágio
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="estagioDropdown" class="dropdown-content">
+            <a href="#">Orientações</a>
+        </div>
+
+        <a class="topics" onclick="toggleDropdown('vestibularDropdown')">
+            Vestibular
+            <i class="fa-solid fa-sort-down fa-sm" style="color: #ffffff;"></i>
+        </a>
+        <div id="vestibularDropdown" class="dropdown-content">
+            <a href="#">Calendário Vestibular</a>
+            <a href="#">Como ingressar na Fatec</a>
+            <a href="#">Cadastro Lembrete Próximo Vestibular</a>
+            <a href="#">Dúvidas Frequentes</a>
+            <a href="#">Isenção / Redução</a>
+            <a href="#">Provas e Gabaritos</a>
+        </div>
+
+        <ul class="redes">
+            <li><a href="https://www.facebook.com/fatecribeirao/" target="_blank"><i
+                        class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i></a></li>
+            <li><a href="https://twitter.com/FatecRibeirao" target="_blank"><i
+                        class="fa-brands fa-x-twitter fa-lg"></i></a></li>
+            <li><a href="https://www.linkedin.com/school/fatecribeiraopreto/" target="_blank"><i
+                        class="fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCniCNDqvtQRkMX8XiUKafUQ" target="_blank"><i
+                        class="fa-brands fa-youtube fa-lg" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="image">
+                <div class="slick-slider-container">
+
+                    <div class="slick-slider">
+
+                        <div class="card_container">
+                            <div class="card_item">
+                                <a href="#" class="card_item_link">
+                                    <img src="assets/img/ads-fatec.jpeg">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card_container">
+                            <div class="card_item">
+                                <a href="#" class="card_item_link">
+                                    <img src="assets/img/gni-fatec.jpeg">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card_container">
+                            <div class="card_item">
+                                <a href="#" class="card_item_link">
+                                    <img src="assets/img/sbm-fatec.jpeg">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card_container">
+                            <div class="card_item">
+                                <a href="#" class="card_item_link">
+                                    <img src="/assets/img/grh-fatec.png">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card_container">
+                            <div class="card_item">
+                                <a href="#" class="card_item_link">
+                                    <img src="/assets/img/insc-fatec.png">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="arrowL" class="arrowPrev">
+                        <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+                    </div>
+
+                    <div id="arrowR" class="arrowNext">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sociais">
+                <h2 class="txt-center">
+                    ACESSO RÁPIDO
+                </h2>
+
+                <div class="main-links">
+                    <ul>
+                        <li class="main-item btn1">
+                            <a href="http://www.fatecrp.edu.br/vet-fatec/">
+                                <img src="assets/img/fatec.png" class="main-icon">
+                                Conheça Nossos Cursos
+                            </a>
+                        </li>
+                        <li class="main-item btn1">
+                            <a href="http://www.fatecrp.edu.br/vet-fatec/">
+                                <img src="assets/img/siga.png" class="main-icon">
+                                SIGA
+                            </a>
+                        </li>
+                        <li class="main-item btn1">
+                            <a href="http://www.fatecrp.edu.br/vet-fatec/">
+                                <img src="assets/img/imagine.png" class="main-icon">
+                                Microsoft Imagine
+                            </a>
+                        </li>
+                        <li class="main-item btn1">
+                            <a href="http://www.fatecrp.edu.br/vet-fatec/">
+                                <img src="assets/img/outlook.png" class="main-icon">
+                                Webmail
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="noticias">
+                <h2 class="txt-center">
+                    NOTÍCIAS
+                </h2>
+
+                <div class="list_noticias">
+                    <div class="noticia_card">
+                        <img src="assets/img/seminarioGNI.png">
+                        <h4>V SEMINÁRIO DE GESTÃO DE NEGÓCIOS E INOVAÇÃO 23 de Outubro a  28 de Outubro INSCREVA-SE!   Segunda-feira, 23 de […]</h4>
+                        <h5>18 de outubro de 2023 às 16:46</h5>
+                    </div>
+
+                    <div class="noticia_card">
+                        <img src="assets/img/seminarioGNI.png">
+                        <h4>V SEMINÁRIO DE GESTÃO DE NEGÓCIOS E INOVAÇÃO 23 de Outubro a  28 de Outubro INSCREVA-SE!   Segunda-feira, 23 de […]</h4>
+                        <h5>18 de outubro de 2023 às 16:46</h5>
+                    </div>
+
+                    <div class="noticia_card">
+                        <img src="assets/img/seminarioGNI.png">
+                        <h4>V SEMINÁRIO DE GESTÃO DE NEGÓCIOS E INOVAÇÃO 23 de Outubro a  28 de Outubro INSCREVA-SE!   Segunda-feira, 23 de […]</h4>
+                        <h5>18 de outubro de 2023 às 16:46</h5>
+                    </div>
+
+                    <div class="noticia_card">
+                        <img src="assets/img/seminarioGNI.png">
+                        <h4>V SEMINÁRIO DE GESTÃO DE NEGÓCIOS E INOVAÇÃO 23 de Outubro a  28 de Outubro INSCREVA-SE!   Segunda-feira, 23 de […]</h4>
+                        <h5>18 de outubro de 2023 às 16:46</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
