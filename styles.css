@@ -431,7 +431,6 @@ footer{
     padding-left: 130px;
     padding-right: 130px;
     padding-top: 35px;
-    padding-bottom: 35px;
     margin: 0;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -542,4 +541,32 @@ footer a{
     text-align: center;
     font-size: 14px;
     padding-top: 14px;
+}
+
+assinatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #273336;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+assinatura h6{
+    font-size: 14.5px;
+    text-align: center;
+    color: white;
+}
+
+assinatura span{
+    color: #12C305;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+assinatura a{
+    text-decoration: none;
 }
